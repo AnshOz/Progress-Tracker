@@ -3,31 +3,31 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     res.json({
-        message: 'users works'
+        message: 'get progress'
     });
 });
 
 router.get('/:id', (req, res) => {
     res.json({
-        message: 'user works'
+        message: 'get one days progress'
     });
 });
 
 router.post('/', (req, res) => {
     res.json({
-        message: 'user created'
+        message: 'daily progress logged'
     });
 });
 
 router.delete('/:id', (req, res) => {
     res.json({
-        message: 'user deleted'
+        message: 'daily progress deleted'
     });
 });
 
 router.patch('/:id', (req, res) => {
     res.json({
-        message: 'user updated'
+        message: 'progress updated'
     });
 });
 
